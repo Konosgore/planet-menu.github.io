@@ -42,7 +42,7 @@ body {
     color: #00FFFF; /* Cyan text for MENU */
     text-shadow: 0 0 5px #00FFFF; /* Cyan glow */
     text-align: right;
-    width: 150%; /* Ensure it centers relative to the header-text container */
+    width: 100%; /* Ensure it centers relative to the header-text container */
 }
 
 .logo {
