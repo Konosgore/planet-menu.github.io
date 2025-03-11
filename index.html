@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="header-text">
+            <h1>PLANET</h1>
+            <h2>MENU</h2>
+        </div>
+        <img src="Planet_Logo.jpg" alt="Random Logo" class="logo">
+    </div>
+
+    <div class="menu-grid">
+        <button class="menu-button" data-category="Gin">GIN</button>
+        <button class="menu-button" data-category="Vodka">VODKA</button>
+        <button class="menu-button" data-category="Tequila">TEQUILA</button>
+        <button class="menu-button" data-category="Whiskey">WHISKEY</button>
+        <button class="menu-button" data-category="Rum">RUM</button>
+        <button class="menu-button" data-category="Brandy">BRANDY</button>
+        <button class="menu-button" data-category="Refreshment">REFRESHMENTS</button>
+        <button class="menu-button" data-category="Wines">WINES</button>
+        <button class="menu-button" data-category="Others">OTHERS</button>
+        <button class="menu-button" data-category="ALC FREE">ALCOHOL FREE</button>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2 id="popup-title"></h2>
+            <ul id="popup-list"></ul>
+            <button class="back-button">Back</button>
+        </div>
+    </div>
+
+    <div id="nested-popup" class="nested-popup">
+        <div class="nested-popup-content">
+            <h2 id="nested-title"></h2>
+            <p id="nested-origin"></p>
+            <p id="nested-type"></p>
+            <p id="nested-description"></p>
+            <button class="nested-back-button">Back</button>
+        </div>
+    </div>
+    <script src="categories/gin.js"></script>
+    <script src="categories/vodka.js"></script>
+    <script src="categories/tequila.js"></script>
+    <script src="categories/whiskey.js"></script>
+    <script src="categories/rum.js"></script>
+    <script src="categories/brandy.js"></script>
+    <script src="categories/refreshment.js"></script>
+    <script src="categories/wines.js"></script>
+    <script src="categories/others.js"></script>
+    <script src="categories/alcfree.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
